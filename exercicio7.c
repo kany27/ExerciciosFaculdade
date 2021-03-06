@@ -28,17 +28,17 @@ int main() {
     scanf("%d", &idade);
 
     if (idade == 18) {
-        prinf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", nome, idade, valor1);
+        printf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", &nome, idade, valor1);
     } else if (idade >= 19 & idade <= 29) {
-        prinf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", nome, idade, valor2);
+        printf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", &nome, idade, valor2);
     } else if (idade >= 30 & idade <= 45) {
-        prinf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", nome, idade, valor3);
+        printf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", &nome, idade, valor3);
     } else if (idade >= 46 & idade <= 65) {
-        prinf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", nome, idade, valor4);
+        printf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", &nome, idade, valor4);
     } else if (idade > 65) {
-        prinf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", nome, idade, valor5);
+        printf("\n%s, tem %d anos e pagará a mensalidade de R$ %d,00 reais.", &nome, idade, valor5);
     } else {
-        prinf("\n%s, você não tem idade para ter um plano de saúde.", nome);
+        printf("\n%s, você não tem idade para ter um plano de saúde.", &nome);
     }
     return 0;
 }
