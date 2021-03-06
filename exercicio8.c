@@ -14,7 +14,7 @@ int main() {
   int op;
   float total;
   total = 0;
-  
+
   printf("\n1- Italiano | 2- Japonês | 3- Salvadorenho");
   printf("\nDigite o prato desejado: ");
   scanf("%d", &op);
@@ -31,6 +31,7 @@ int main() {
             total = total + 545;
             break;
     }
+    
     printf("\n1- Chá | 2- Suco de laranja | 3- Refigerante");
     printf("\nDigite a bebida desejada: ");
     scanf("%d", &op);
