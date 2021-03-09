@@ -14,7 +14,6 @@ int main() {
   int op;
   float total;
   total = 0;
-
   printf("\n1- Italiano | 2- Japonês | 3- Salvadorenho");
   printf("\nDigite o prato desejado: ");
   scanf("%d", &op);
