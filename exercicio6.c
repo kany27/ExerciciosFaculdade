@@ -1,4 +1,4 @@
-/*6- Elabore um programa que receba p sçário de um funcionário e o código d
+/*6- Elabore um programa que receba p salário de um funcionário e o código d
 o cargo e apresente o cargo, o valor do aumento eo novo salário.
 ------------------------------------------
 TABELA DE CARGOS:
