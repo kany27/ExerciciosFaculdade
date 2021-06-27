@@ -1,6 +1,6 @@
 # Exercícicios da faculdade !
 
-### Linguagens que serão usadas: C e PHP
+### Linguagens que serão usadas: C e C++
 
 ### links das redes sociais: 
 
