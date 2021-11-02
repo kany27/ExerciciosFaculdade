@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+  system("clear");//Limpa a tela do terminal.
   system("color 0A"); //trocando de cor para visualizar no terminal.
   srand(time(0)); //sorteia um número x para iniciar o cálculo.
   const int num_safe = rand() % 100; //salva na constante o número calculado para o jogo.

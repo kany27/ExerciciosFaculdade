@@ -16,6 +16,7 @@ float soma() {
   return result;
 }
 
+//Função de Subtracao
 float subtracao() {
   printf("\nInsira o valor de n1: ");
   scanf("%f", &n1);
@@ -27,6 +28,7 @@ float subtracao() {
   return result;
 }
 
+//Função de Divisão
 float divisao() {
   printf("\nInsira o valor de n1: ");
   scanf("%f", &n1);
@@ -38,6 +40,7 @@ float divisao() {
   return result;
 }
 
+//Função de Multiplicação
 float multiplicacao() {
   printf("\nInsira o valor de n1: ");
   scanf("%f", &n1);
@@ -49,6 +52,7 @@ float multiplicacao() {
   return result;
 }
 
+//Função para fazer a chamadas das outras
 void menu_principal() {
 
   int opcao;
